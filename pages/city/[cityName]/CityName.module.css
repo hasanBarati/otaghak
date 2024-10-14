@@ -1,0 +1,7 @@
+
+.content{
+    @apply max-w-[--max-w] mx-auto py-8 px-4
+}
+
+
+

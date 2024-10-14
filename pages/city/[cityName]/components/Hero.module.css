@@ -1,0 +1,6 @@
+.hero{
+    @apply   w-11/12 sm:w-full mx-auto relative pt-[30%]
+}
+.hero .text{
+    @apply absolute top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2
+}

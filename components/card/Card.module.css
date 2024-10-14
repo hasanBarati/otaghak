@@ -1,0 +1,7 @@
+
+.card{
+    @apply max-w-[20rem]   max-sm:mx-auto
+}
+.card .title{
+    @apply whitespace-nowrap text-ellipsis overflow-hidden 
+}

@@ -1,0 +1,16 @@
+.navbar {
+     @apply  flex justify-between items-center p-4 bg-white mx-auto  max-w-[--max-w]
+  }
+  .navbar .item {
+    @apply hidden lg:flex justify-between items-center  gap-x-4 
+  }
+  .navbar .mobileItem {
+    @apply  lg:hidden flex justify-between items-center   
+  }
+  .navbar  a {
+    @apply flex gap-x-1 items-center text-[#48484E]  hover:text-black font-normal  
+  }
+  .navbar  a:hover {
+    color: #000;
+  }
+  
